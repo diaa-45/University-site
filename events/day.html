@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon//favicon-16x16.png">
+
+    <title>Programma | Gentse Feesten 2023</title>
+</head>
+
+<body>
+    <div id="menu">
+        <!--JAVASCRIPT-->
+    </div>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a id="logo" href="../index.html">
+                            <!--JAVASCRIPT-->
+                        </a>
+                    </li>
+                    <li class="hover-after header-hidden">
+                        <a href="../news.html">Nieuws</a>
+                    </li>
+                    <li class="page-pointer header-hidden">
+                        <a href="day.html?day=14">Programma</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="header__search header-hidden__delay">
+                        <a href="../search.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path fill="currentColor"
+                                    d="m31.474 28.951-6.043-6.025a14.08 14.08 0 0 0 3.004-8.708A14.22 14.22 0 0 0 4.163 4.164a14.215 14.215 0 0 0-3.082 15.495 14.217 14.217 0 0 0 13.136 8.777 14.072 14.072 0 0 0 8.708-3.004l6.025 6.043a1.77 1.77 0 0 0 1.262.526 1.776 1.776 0 0 0 1.261-.526 1.77 1.77 0 0 0 .526-1.261 1.77 1.77 0 0 0-.526-1.262zM3.554 14.218a10.659 10.659 0 0 1 6.583-9.851 10.667 10.667 0 0 1 11.621 2.311 10.66 10.66 0 0 1 2.311 11.621 10.663 10.663 0 0 1-20.514-4.081z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__hamburger">
+                        <a id="menu-btn" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 32">
+                                <path fill="currentColor"
+                                    d="M0 0h54.825v3.404H0V0zm11.072 14.298h32.681v3.404H11.072v-3.404zM0 28.596h54.825V32H0v-3.404z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="day-nav">
+            <div class="container">
+                <ul id="dayNav">
+                    <!--JAVASCRIPT-->
+                </ul>
+            </div>
+        </section>
+
+        <section class="day-spotlight">
+            <div class="container">
+                <ul id="spotlight">
+                    <!--JAVASCRIPT-->
+                </ul>
+            </div>
+        </section>
+
+        <section class="day-filter">
+            <div class="container">
+                <h2>Filter</h2>
+                <div class="day-filter__menu">
+                    <ul class="day-filter__options">
+                        <li class="day-filter__category">
+                            <figure>
+                                <img src="../static/img/filter icoontjes/tag.svg" alt="Tag icon">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <ul id="filter" class="filter-categories">
+                    <!--JAVASCRIPT-->
+                </ul>
+            </div>
+            <div class="container">
+                <form action="../search.html" class="search-form">
+                    <label>
+                        <input type="text" placeholder="Doorzoek het programma..." id="searchInput" name="search">
+                    </label>
+                    <button type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                            <path fill="currentColor"
+                                d="m31.474 28.951-6.043-6.025a14.08 14.08 0 0 0 3.004-8.708A14.22 14.22 0 0 0 4.163 4.164a14.215 14.215 0 0 0-3.082 15.495 14.217 14.217 0 0 0 13.136 8.777 14.072 14.072 0 0 0 8.708-3.004l6.025 6.043a1.77 1.77 0 0 0 1.262.526 1.776 1.776 0 0 0 1.261-.526 1.77 1.77 0 0 0 .526-1.261 1.77 1.77 0 0 0-.526-1.262zM3.554 14.218a10.659 10.659 0 0 1 6.583-9.851 10.667 10.667 0 0 1 11.621 2.311 10.66 10.66 0 0 1 2.311 11.621 10.663 10.663 0 0 1-20.514-4.081z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="day-events">
+            <div class="container">
+                <div class="grid-toggler">
+                    <a id="normal" class="bg-red" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                            <path fill="currentColor"
+                                d="M0 28a4 4 0 0 0 8 0 4 4 0 0 0-8 0m4-16a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm24-4a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM0 4a4 4 0 0 0 8 0 4 4 0 0 0-8 0m28 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-16 4a4 4 0 0 0 8 0 4 4 0 0 0-8 0m0-24a4 4 0 0 0 8 0 4 4 0 0 0-8 0m4 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+                        </svg>
+                    </a>
+                    <a id="list" class="list-btn" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 32">
+                            <path fill="currentColor"
+                                d="M13.742 5.053h29.192a2.526 2.526 0 0 0 0-5.052H13.742a2.525 2.525 0 1 0 0 5.052zm29.192 8.421H13.742a2.525 2.525 0 1 0 0 5.052h29.192a2.526 2.526 0 0 0 0-5.052zm0 13.473H13.742a2.526 2.526 0 0 0 0 5.052h29.192a2.527 2.527 0 0 0 0-5.052zM2.537 0h-.022C1.119 0 0 1.131 0 2.526s1.141 2.526 2.537 2.526a2.525 2.525 0 1 0 0-5.052zm0 13.474h-.022C1.119 13.474 0 14.605 0 16s1.141 2.526 2.537 2.526a2.525 2.525 0 1 0 0-5.052zm0 13.473h-.022C1.119 26.947 0 28.079 0 29.473s1.141 2.526 2.537 2.526a2.526 2.526 0 0 0 0-5.052z" />
+                        </svg>
+                    </a>
+                </div>
+                <div id="events">
+                    <!--JAVASCRIPT-->
+                </div>
+            </div>
+        </section>
+
+        <section class="day-search">
+            <div class="container">
+                <figure>
+                    <img src="../static/img/search-decoration-img.jpg" alt="Decoration image">
+                </figure>
+                <div class="day-search__form">
+                    <h2>Andere activiteiten</h2>
+                    <h3>Ben je op zoek naar een ander activiteit?</h3>
+                    <form action="../search.html" class="search-form">
+                        <label>
+                            <input type="text" placeholder="Doorzoek het programma..." id="searchInputBottom"
+                                name="search">
+                        </label>
+                        <button type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path fill="currentColor"
+                                    d="m31.474 28.951-6.043-6.025a14.08 14.08 0 0 0 3.004-8.708A14.22 14.22 0 0 0 4.163 4.164a14.215 14.215 0 0 0-3.082 15.495 14.217 14.217 0 0 0 13.136 8.777 14.072 14.072 0 0 0 8.708-3.004l6.025 6.043a1.77 1.77 0 0 0 1.262.526 1.776 1.776 0 0 0 1.261-.526 1.77 1.77 0 0 0 .526-1.261 1.77 1.77 0 0 0-.526-1.262zM3.554 14.218a10.659 10.659 0 0 1 6.583-9.851 10.667 10.667 0 0 1 11.621 2.311 10.66 10.66 0 0 1 2.311 11.621 10.663 10.663 0 0 1-20.514-4.081z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-newsletter">
+            <div class="container">
+                <!-- <nav class="footer-newsletter__nav">
+                    <ul>
+                        <li class="footer-newsletter__nav-pics">
+                            <a href="#">
+                                <p>
+                                    Spot onze foto's
+                                </p>
+                                <div class="arrow-right">
+                                    <div class="arrow-helper"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                        <path fill="currentColor"
+                                            d="M12.5 7c.384 0 .768.146 1.06.439l8.26 8.261-8.26 8.261a1.5 1.5 0 0 1-2.121-2.122l6.14-6.14-6.14-6.139a1.502 1.502 0 0 1 1.06-2.561z" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="footer-newsletter__nav-vids">
+                            <a href="#">
+                                <div class="arrow-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                        <path fill="currentColor"
+                                            d="M20.321 24.4c-.384 0-.768-.146-1.06-.439L11 15.701l8.26-8.262a1.5 1.5 0 0 1 2.121 2.122l-6.14 6.14 6.14 6.14a1.503 1.503 0 0 1-1.06 2.56" />
+                                    </svg>
+                                    <div class="arrow-helper"></div>
+                                </div>
+                                <p>
+                                    Aanschouw onze video's
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav> -->
+                <div class="footer-newsletter__subscribe">
+                    <figure id="logo-letter-footer">
+                        <!--JAVASCRIPT-->
+                    </figure>
+                    <div class="footer-newsletter__subscribe-text">
+                        <h3>Blijf op de hoogte</h3>
+                        <p>
+                            Schrijf je in op de nieuwsbrief van de Gentse Feesten
+                        </p>
+                        <!-- <div class="footer-newsletter__input">
+                            <input type="email" id="email" name="email" placeholder="Jouw e-mailadres" required>
+                            <button type="submit" class="sub-button">
+                                <strong>Inschrijven</strong>
+                            </button>
+                        </div> -->
+                        <p class="footer-newsletter__terms">
+                            De stad Gent zal de persoonsgegevens dat je invult met respect voor jouw <a
+                                href="#">privacy</a> behandelen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-info">
+            <div class="container">
+                <div class="dates-circle">
+                    <p>
+                        14 - 23 juli
+                    </p>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a id="logo-footer" href="index.html">
+                                <!--JAVASCRIPT-->
+                            </a>
+                        </li>
+                        <li class="footer-info__socials">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path
+                                        d="M17.49 25v-8.21h2.95l.44-3.2h-3.39v-2.043c0-.927.276-1.558 1.697-1.558L21 9.988V7.126A25.196 25.196 0 0 0 18.445 7h-.091.005c-2.614 0-4.403 1.491-4.403 4.23v2.36H11v3.2h2.956V25h3.535z" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path
+                                        d="M11.034 12c2.228 0 4.034 1.791 4.034 4 0 2.21-1.806 4-4.034 4S7 18.21 7 16c0-2.209 1.806-4 4.034-4zM25 16c0 2.21-1.806 4-4.034 4s-4.034-1.79-4.034-4c0-2.209 1.806-4 4.034-4S25 13.791 25 16z" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path
+                                        d="M26.8 12.1c0-.3-.3-1.9-1.1-2.7C25 8.7 24 8.3 23 8.2h-.2C19.8 8 16.2 8 16 8s-3.8 0-6.8.2H9c-1 0-1.9.5-2.6 1.2-.8.8-1.1 2.4-1.1 2.7-.2 1.2-.3 2.4-.3 3.6v1.6c0 1.2.1 2.4.2 3.6 0 .3.3 1.8 1.1 2.7.8.7 1.7 1.1 2.7 1.1H9.3c1.7.2 6.4.2 6.6.2.2 0 3.8 0 6.8-.2h.2c1 0 1.9-.5 2.6-1.2.8-.8 1.1-2.4 1.1-2.7.1-1.2.2-2.4.2-3.6v-1.6c.2-1.1.1-2.3 0-3.5zm-13.7 7.8v-7.4l7.1 3.7-7.1 3.7z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="footer__site-info">
+                                Deze website is louter informatief en geldt niet als aanbod, mogelijke fouten op de
+                                website zijn niet de aansprakelijkheid van Stad Gent.
+                            </p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </footer>
+    <script src="../static/js/utils/utility-functions.js"></script>
+    <script src="../static/js/main/data.js"></script>
+    <script src="../static/js/main/logos.js"></script>
+    <script src="../static/js/main/menu.js"></script>
+    <script src="../static/js/day-page/day.js"></script>
+    <script src="../static/js/main/grid-toggler.js"></script>
+</body>
+
+</html>
