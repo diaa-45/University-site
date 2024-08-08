@@ -10,14 +10,6 @@
     <div class="menu">
     <div class="menu__search">
         <ul>
-            <li class="header__languages header-hidden__delay">
-                <a href="#">NL
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                        <path fill="currentColor"
-                            d="m15.7 21.82-8.26-8.26a1.5 1.5 0 1 1 2.12-2.12l.001.001 6.14 6.138 6.14-6.139a1.5 1.5 0 1 1 2.122 2.121l-8.26 8.26z" />
-                    </svg>
-                </a>
-            </li>
             <li class="header__search header-hidden__delay">
                 <a href="${$filePath}search.html">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
@@ -110,10 +102,7 @@
                     </li>
                 </ul>
         </nav>
-    </div>
-<figure class="menu__letter">
-    <img src="${$filePath}static/img/Gentse Feesten Logos/campagne-${$number}.png" alt="Gentse Feesten letter">
-</figure>
+ 
 <a class="menu__close" id="close" href="#">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 32">
         <path fill="currentColor"

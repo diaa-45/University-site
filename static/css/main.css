@@ -1,32 +1,6 @@
-/*
-===================================
-STANDARD VALUES
-===================================
-*/
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("../fonts/Fira Sans Bold.woff2") format("woff2"),
-    url("../fonts/Fira Sans Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-2212;
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("../fonts/Fira Sans Regular.woff2") format("woff2"),
-    url("../fonts/Fira Sans Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-2212;
-}
-
 body {
   font-family: "Fira sans";
-  background-color: hsl(31, 49%, 81%);
+  background-color: hsl(31, 64%, 55%);
 }
 
 main {
@@ -43,10 +17,7 @@ h1 {
   }
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1,h2,h3,h4 {
   line-height: 100%;
 }
 
@@ -88,7 +59,7 @@ UTILITY CLASSES
 }
 
 .bg-red {
-  background-color: hsl(0, 79%, 57%);
+  background-color: hsl(0, 66%, 45%);
 }
 
 .page-pointer::after {
@@ -189,7 +160,7 @@ HEADER
 */
 
 header {
-  background-color: black;
+  background-color: rgb(145, 29, 29);
   padding: 3.5rem 0;
 }
 
@@ -299,7 +270,7 @@ MENU
   position: fixed;
   top: 0;
   left: 0;
-  background-color: hsl(0, 79%, 57%);
+  background-color: hsl(0, 53%, 31%);
   width: 100%;
   height: 100%;
 }
@@ -429,7 +400,7 @@ footer {
   text-decoration: none;
   padding: 1rem 2rem;
   margin-bottom: 2rem;
-  background-color: hsl(0, 79%, 57%);
+  background-color: hsl(0, 72%, 27%);
 }
 
 @media (max-width: 43.75rem) {
@@ -505,7 +476,7 @@ footer {
 
 /* Footer Info */
 .footer-info {
-  background-color: black;
+  background-color: rgb(145, 29, 29);
   padding-top: 5rem;
 }
 
@@ -910,7 +881,7 @@ HOME - Spotlight
 */
 
 .home-spotlight {
-  background-color: black;
+  background-color: rgb(44, 26, 26);
   padding: 10rem 0;
   padding-bottom: 7rem;
 }
@@ -996,7 +967,7 @@ HOME - News
 
 .home-news {
   color: white;
-  background-color: black;
+  background-color: rgb(59, 40, 40);
   padding-bottom: 5rem;
 }
 
